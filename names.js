@@ -1,6 +1,6 @@
-function fullName(firstName, lastName){
+function getFullName(firstName, lastName){
   const fullName = {firstName, lastName}
   return fullName
 }
 
-module.exports = fullName
+module.exports = {getFullName}

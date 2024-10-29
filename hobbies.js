@@ -1,6 +1,6 @@
-function hobbies(first, second, third){
+function getHobbiesArr(first, second, third){
   const arr = [first, second, third]
   return arr
 }
 
-module.exports = hobbies
+module.exports = {getHobbiesArr}
