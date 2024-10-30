@@ -6,7 +6,7 @@ function returnObject(){
 
   const personName = name.getFullName("Massimo", "Pallera")
   const hobbiesArr = hobbies.getHobbiesArr("Coding","Scacchi","Videogames")
-  console.log(personName)
+  // console.log(personName)
 
 
   const person = {
